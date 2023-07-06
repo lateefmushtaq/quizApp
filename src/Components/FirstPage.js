@@ -8,10 +8,10 @@ function FirstPage() {
   return (
     <Router>
       <nav>
-        <NavLink to="/UserLogin" activeClassName="active" className="switch-link">
+        <NavLink to="/UserLogin" activeclassname="active" className="switch-link">
           Login
         </NavLink>
-        <NavLink to="/UserRegistration" activeClassName="active" className="switch-link">
+        <NavLink to="/UserRegistration" activeclassname="active" className="switch-link">
           Signup
         </NavLink>
       </nav>
